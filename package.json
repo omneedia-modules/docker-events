@@ -1,0 +1,28 @@
+{
+    "name": "@omneedia/docker-events",
+    "version": "0.0.6",
+    "description": "Create an event emitter from dockerode's events response",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/deoxxa/docker-events.git"
+    },
+    "keywords": [
+        "docker",
+        "events",
+        "event",
+        "emitter"
+    ],
+    "author": "Conrad Pankoff <deoxxa@fknsrs.biz> (http://www.fknsrs.biz/)",
+    "license": "BSD",
+    "bugs": {
+        "url": "https://github.com/deoxxa/docker-events/issues"
+    },
+    "homepage": "https://github.com/deoxxa/docker-events",
+    "dependencies": {
+        "@omneedia/jsuck": "0.0.6"
+    },
+    "peerDependencies": {
+        "dockerode": "3.3.0"
+    }
+}
